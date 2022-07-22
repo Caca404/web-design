@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+.flex-container {
+	background-color: hsl(213, 86%, 53%);
+	height: 400px;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-content: center;
+	align-items: baseline;
+}
+.flex-container > div{
+	background-color: #DEDEDE;
+	min-width: 100px;
+	min-height: 50px;
+	text-align: center;
+	margin: 5px;
+	padding: 35px 0;
+	font-family: "Trebuchet MS", Arial, san-serif;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.flex-container > div:nth-of-type(5){
+	background-color: lightgreen;
+}
